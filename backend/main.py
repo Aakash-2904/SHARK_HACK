@@ -35,6 +35,10 @@ async def startup():
 
     print("\n🔄 Step 1: Loading researchers from Pinecone...")
     load_researchers_from_pinecone()
+    from rag import RESEARCHERS as _R
+    print(f"✅ {len(_R)} researchers loaded from Pinecone")
+    federated_state       = run_federated_round(_R)
+    encrypted_researchers = encrypt_all_researchers(_R)
     print(f"✅ {len(RESEARCHERS)} researchers loaded")
 
     print("\n🔄 Step 2: Running federated learning round...")
