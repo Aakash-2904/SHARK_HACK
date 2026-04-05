@@ -47,7 +47,9 @@ async def startup():
     print(f"✅ Federated round complete")
 
     print("\n🔄 Step 3: Training FL models...")
+    from rag import RESEARCHERS as _R2
     fl_model = get_fl_model()
+    fl_model.train(_R2)    
     print(f"✅ FL models trained")
 
     print("\n✅ Luminary ready — Pinecone + FL + QAOA active\n")
