@@ -2,8 +2,7 @@
  * Luminary API client
  */
 
-const BASE_URL = "https://luminary-backend.onrender.com";
-
+const BASE_URL = "https://shark-hack-1.onrender.com";
 /**
  * Search researchers — RAG + FL + QAOA pipeline
  */
