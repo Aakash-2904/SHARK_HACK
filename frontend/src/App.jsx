@@ -922,7 +922,7 @@ function AssistantScreen() {
   const [activeAgents, setActiveAgents] = useState({});
   const chatRef = useRef(null);
  
-const AGENT_API = "https://luminary-assistant.onrender.com"; 
+const AGENT_API = "https://shark-hack-2.onrender.com"; 
   const AGENT_META = {
     data:    { label:"DataBot",    color:C.blueLight, emoji:"🗄" },
     paper:   { label:"PaperBot",   color:"#a78bfa",   emoji:"📄" },
