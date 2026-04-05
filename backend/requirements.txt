@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pydantic
+numpy
+pandas
+scikit-learn
+pinecone
+flask
+flask-cors
+duckduckgo-search
+requests
