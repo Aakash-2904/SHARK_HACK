@@ -2,7 +2,7 @@
  * Luminary API client
  */
 
-const BASE_URL = "http://localhost:8000";
+const BASE_URL = "https://luminary-backend.onrender.com";
 
 /**
  * Search researchers — RAG + FL + QAOA pipeline
