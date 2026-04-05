@@ -205,7 +205,7 @@ function LoginScreen({ onLogin }) {
     setLoading(true);
     setError("");
     setTimeout(() => {
-      if (username.trim() === "protothon8" && password === "quaffle") {
+      if (username.trim() === "sharkhack" && password === "quaffle") {
         onLogin();
       } else {
         setError("Invalid credentials. Please try again.");
