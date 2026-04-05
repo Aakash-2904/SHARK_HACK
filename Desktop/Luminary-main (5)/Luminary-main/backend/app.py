@@ -17,7 +17,7 @@ CORS(app)
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-GROQ_API_KEY = ""
+GROQ_API_KEY = "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"   # 👈 paste your key here
 GROQ_URL     = "https://api.groq.com/openai/v1/chat/completions"
 MODEL        = "llama-3.3-70b-versatile"
 
