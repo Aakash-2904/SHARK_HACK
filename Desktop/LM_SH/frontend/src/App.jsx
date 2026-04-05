@@ -922,8 +922,7 @@ function AssistantScreen() {
   const [activeAgents, setActiveAgents] = useState({});
   const chatRef = useRef(null);
  
-  const AGENT_API = "http://localhost:5000";
- 
+const AGENT_API = "https://your-flask-service.onrender.com"; 
   const AGENT_META = {
     data:    { label:"DataBot",    color:C.blueLight, emoji:"🗄" },
     paper:   { label:"PaperBot",   color:"#a78bfa",   emoji:"📄" },
